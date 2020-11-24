@@ -1,4 +1,4 @@
-数据集下载地址[百度网盘]()，下载后解压到`wrist_images`文件夹下。
+数据集下载地址[百度网盘(提取码:ippg)](https://pan.baidu.com/s/1odgmskNaLG-jwwanlbsNHA)，下载后解压到`wrist_images`文件夹下。
 在[YOLO](https://pjreddie.com/darknet/yolo/)下载一个weights文件，放在跟目录下，命名为yolov3.weights。
 运行
 ~~~
