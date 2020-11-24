@@ -5,6 +5,7 @@
  - 在[YOLO](https://pjreddie.com/darknet/yolo/)下载一个weight文件
  - 下载一个数据集[Train/Validation Data (439 MB)](https://pjreddie.com/projects/pascal-voc-dataset-mirror/)
 
+
 然后把数据集压缩包解压，并把qqwweee/keras-yolo3里面的`voc_annatation.py`复制过去，由于之前下载的是VOC2007的Train/Validation数据集，所以`voc_annatation.py`文件做了小修改，把第四行的
 ~~~py
 sets=[('2007', 'train'), ('2007', 'val'), ('2007', 'test')]
