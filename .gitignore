@@ -2,6 +2,7 @@
 *.png
 *.weights
 *.h5
+data/wrist_images/
 logs/
 *_test.py
 
