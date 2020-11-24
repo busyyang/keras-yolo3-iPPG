@@ -1,5 +1,9 @@
 数据集下载地址[百度网盘(提取码:ippg)](https://pan.baidu.com/s/1odgmskNaLG-jwwanlbsNHA)，下载后解压到`wrist_images`文件夹下。
 在[YOLO](https://pjreddie.com/darknet/yolo/)下载一个weights文件，放在跟目录下，命名为yolov3.weights。
+将weights文件转化为模型文件：
+~~~
+python convert.py yolov3.cfg yolov3.weights model_data/yolo.h5
+~~~
 运行
 ~~~
 python train.py

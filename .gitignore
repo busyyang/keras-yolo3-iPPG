@@ -5,7 +5,7 @@
 data/wrist_images/
 logs/
 *_test.py
-.idea
+.idea/*.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
